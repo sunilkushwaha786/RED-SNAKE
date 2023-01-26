@@ -5,7 +5,7 @@
   }
   
   .main-container {
-    background-image: url(/snake\ back.jpg);
+    background-image: url(./snake_back.jpg);
     width: 100vw;
     height: 100vh;
     display: flex;
