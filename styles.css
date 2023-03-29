@@ -1,0 +1,67 @@
+*{
+ margin: 0;
+ padding: 0;
+ 
+}
+
+.body{
+    background: url("./ss.webp");
+    min-height:100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#scoreBox{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+#hiscoreBox {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    font-size: 40px;
+    font-weight:bolder;   
+    color: white;
+    
+}
+#board{
+    top: 100px;
+    right: 100px;
+    /* left: 0px; */
+    /* right: 100px; */
+    /* align-items: center; */
+    /* background-color: rgb(197, 222, 147); */
+    /* background-image:; */
+    /* background: url("./bg.png"); */
+    width: 140vmin;
+    height: 92vmin;
+    border: 2px solid rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns:repeat(18,1fr) ;
+    grid-template-rows:repeat(18,1fr) ;
+}
+
+/* .fotter{
+    /* align-items: center; */
+    /* text-align: center;
+    size: 20px;
+} */ 
+
+.head{
+    background-color: red;
+    
+}
+.snake{
+    background-color: yellow;
+}
+.food{
+    background-color: green;
+}
